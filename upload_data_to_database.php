@@ -1,6 +1,6 @@
 <?php 
 	
-	include "db_config1.php";
+	include "db_config.php";
 	$conn = new mysqli($DB_HOST,$DB_USER,$DB_PASS,$DB_NAME);
 	
 	if($conn)
